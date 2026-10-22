@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title description">
+  <title id="title">농산물품질관리사 app icon</title>
+  <desc id="description">AGRIQA, derived only from the exam name</desc>
+  <rect width="1024" height="1024" fill="#1F2937"/>
+  <rect x="104" y="104" width="816" height="816" rx="204" fill="#475569"/>
+  <rect x="164" y="164" width="696" height="696" rx="174" fill="#1F2937" opacity=".48"/>
+  <text x="512" y="592" fill="#FFFFFF" font-family="Arial, 'Noto Sans', sans-serif" font-size="176" font-weight="900" text-anchor="middle" letter-spacing="-3" direction="ltr">AGRIQA</text>
+  <rect x="422" y="694" width="180" height="24" rx="12" fill="#F6C85F"/>
+</svg>
