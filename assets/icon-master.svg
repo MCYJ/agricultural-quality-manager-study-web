@@ -1,10 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title description">
-  <title id="title">농산물품질관리사 app icon</title>
-  <desc id="description">AGRIQA, derived only from the exam name</desc>
-  <rect width="1024" height="1024" fill="#1F2937"/>
-  <rect x="104" y="104" width="816" height="816" rx="204" fill="#475569"/>
-  <rect x="164" y="164" width="696" height="696" rx="174" fill="#1F2937" opacity=".48"/>
-  <text x="512" y="592" fill="#FFFFFF" font-family="Arial, 'Noto Sans', sans-serif" font-size="176" font-weight="900" text-anchor="middle" letter-spacing="-3" direction="ltr">AGRIQA</text>
-  <rect x="422" y="694" width="180" height="24" rx="12" fill="#F6C85F"/>
+  <title id="title">농산물 품질 확인</title>
+  <desc id="description">짙은 숲색 바탕 위 곡물 이삭과 잎, 품질 확인 표시. 글자와 코드가 없는 농산물품질관리 학습 아이콘.</desc>
+  <rect width="1024" height="1024" fill="#26362C"/>
+  <!-- Grain: broad silhouettes and a continuous stalk remain legible at48px. -->
+  <g fill="#F2EFE5">
+    <path d="M363 733c-8-126-5-278 24-435" fill="none" stroke="#F2EFE5" stroke-width="24" stroke-linecap="round"/>
+    <path d="M391 334c-40-34-45-87-7-126 32 42 34 87 7 126Z"/>
+    <path d="M379 412c-74-10-117-57-114-119 66 10 111 52 114 119Z"/>
+    <path d="M380 414c72-17 111-65 102-126-64 16-105 62-102 126Z"/>
+    <path d="M368 518c-77-7-123-52-124-115 68 7 116 48 124 115Z"/>
+    <path d="M370 522c75-11 117-56 114-119-67 10-111 51-114 119Z"/>
+    <path d="M363 624c-75-1-125-43-131-105 68 1 117 38 131 105Z"/>
+    <path d="M365 629c71-9 117-51 117-112-65 7-111 45-117 112Z"/>
+  </g>
+  <!-- Leaf: one large growing form with a dark central vein. -->
+  <path d="M477 702c-40-128-2-291 233-416 25 224-55 354-233 416Z" fill="#F2EFE5"/>
+  <path d="M480 699c48-105 117-221 215-370" fill="none" stroke="#26362C" stroke-width="23" stroke-linecap="round"/>
+  <path d="M550 564l-10-95m55 30 76-16" fill="none" stroke="#26362C" stroke-width="17" stroke-linecap="round"/>
+  <!-- Quality: the filled badge is independent of the crop silhouettes. -->
+  <circle cx="706" cy="727" r="166" fill="#26362C"/>
+  <circle cx="706" cy="727" r="143" fill="#F2EFE5"/>
+  <path d="m631 729 50 51 101-114" fill="none" stroke="#26362C" stroke-width="43" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
