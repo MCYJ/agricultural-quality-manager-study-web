@@ -129,23 +129,23 @@ export const copy={
       "자체 작성 문항과 선지별 판단 근거"
     ],
     "scopeNote": "위 항목은 학습 범위의 요약입니다. 최종 문항 구성과 기능은 검수·구현 중이며, 전체 콘텐츠나 스토어 출시가 완료되었다는 의미는 아닙니다.",
-    "privacyIntro": "출시 준비 중인 로컬 학습 앱의 예정된 데이터 처리 범위입니다. 최종 배포본이 달라지면 공개 전에 이 문서를 갱신합니다.",
+    "privacyIntro": "앱의 기기 내 학습 데이터 처리와 사용자가 선택하는 외부 전달, 정적 웹사이트의 처리 범위를 안내합니다.",
     "privacySections": [
       [
         "기기의 학습 데이터",
-        "학습 진도, 답변 이력과 저장 문항을 기기에 보관하는 로컬 중심 구조를 준비하고 있습니다. RushLabs 계정이나 학습 답안을 개발자 서버에 동기화하는 서비스를 제공하지 않는 방향입니다."
+        "학습 진도, 답변·연습 이력, 저장 문항, 메모와 설정은 기기에 보관합니다. 문항 오류 신고도 기기 내 대기 목록에 저장되며 자동 전송되지 않습니다. RushLabs 계정이나 학습 데이터를 개발자 서버에 동기화하는 기능은 없습니다. 필답 연습의 작성 답안과 자가 점검도 이 기기에 저장합니다."
       ],
       [
-        "직접 선택하는 백업",
-        "사용자가 내보내기·복원을 선택하면 학습 데이터가 파일에 포함됩니다. 다른 앱이나 클라우드로 공유할 경우 해당 서비스의 정책도 적용됩니다. 내보낸 파일과 운영체제의 백업은 별도로 관리하세요."
+        "직접 선택하는 백업·가져오기",
+        "사용자가 내보내기를 선택하면 학습 기록·메모·신고 등을 포함한 JSON 파일을 만들고 운영체제 공유 화면을 엽니다. 가져오기는 사용자가 문서 선택 화면에서 고른 파일을 읽습니다. 앱이 개발자 서버나 클라우드로 자동 업로드하지 않습니다. 파일을 다른 앱·메일·클라우드에 전달하면 해당 서비스의 정책이 적용됩니다. 내보낸 파일과 운영체제 백업은 별도로 관리·삭제하세요."
       ],
       [
         "선택하는 알림",
-        "알림은 기기 권한과 앱 설정에 따라 사용자가 선택하는 기능으로 준비합니다. 잠금화면의 문제 내용은 기본적으로 숨기고 명시적으로 켜는 구성을 적용할 예정입니다. 최종 기기 동작은 아직 검증 중입니다."
+        "학습 알림과 잠금화면 문제 본문 표시는 기본적으로 꺼져 있습니다. 사용자가 알림을 켜면 기기 권한과 설정에 따라 기기에서 알림을 예약합니다. 문제 본문도 별도로 켠 경우에만 알림에 표시됩니다. 원격 푸시 서버에 등록하거나 학습 데이터를 보내지 않습니다."
       ],
       [
         "구매와 삭제",
-        "일회 구매·환불·구매 이력은 출시되는 스토어에서 처리합니다. 카드 정보를 RushLabs가 받는 결제 폼은 없습니다. 앱·기기 설정에서 로컬 자료를 지우거나 앱을 삭제할 수 있으며 내보낸 백업은 별도로 삭제해야 합니다."
+        "앱 구매·결제·환불과 구매 이력은 해당 스토어가 처리합니다. RushLabs가 카드 정보를 입력받는 결제 폼은 없습니다. 기기에서 앱 데이터를 지우거나 앱을 삭제하면 로컬 학습 자료가 제거될 수 있으며, 내보낸 파일과 운영체제 백업은 별도로 관리해야 합니다."
       ],
       [
         "이 웹사이트",
@@ -153,7 +153,7 @@ export const copy={
       ],
       [
         "문의",
-        "이메일 문의에는 앱 버전·문항 ID와 필요한 설명만 적어 주세요. 신분증·거래처 개인정보나 전체 백업 파일을 보내실 필요는 없습니다."
+        "이메일 문의에는 앱 버전·문항 ID와 필요한 설명만 적어 주세요. 신분증·거래처 개인정보나 전체 백업 파일을 보내실 필요는 없습니다. 직접 이메일을 보내면 회신을 위해 보낸 주소와 문의 내용을 확인합니다. 삭제·정정 문의도 같은 연락처로 보낼 수 있습니다."
       ]
     ],
     "termsIntro": "독립 학습 서비스와 이 안내 사이트의 범위를 확인하세요.",
@@ -317,23 +317,23 @@ export const copy={
       "Original questions and reasoning for answer options"
     ],
     "scopeNote": "This is a study-scope summary. Content and features are still being reviewed and implemented; it does not mean that the full question bank or store release is complete.",
-    "privacyIntro": "The intended data handling of a local-study app being prepared for launch. This policy will be updated before public release if the final app changes.",
+    "privacyIntro": "This notice explains on-device learning data, transfers you choose, and data handling by this static website.",
     "privacySections": [
       [
         "Learning data on your device",
-        "We are preparing local storage for progress, answer history and saved questions. The intended design does not require a RushLabs account or synchronize study answers to a developer-operated server."
+        "Learning progress, answer and practice history, saved questions, notes and settings stay on your device. Question-error reports are also saved in a local pending list and are not sent automatically. The app has no RushLabs account or synchronization of study data to a developer-operated server. Written-practice responses and self-checks are also stored on this device."
       ],
       [
-        "Backups you choose",
-        "If you choose export or restore, learning data is included in the file. Other apps and cloud services have their own policies when you share a file. Manage exported files and operating-system backups separately."
+        "Backups and imports you choose",
+        "When you choose export, the app creates a JSON file containing learning records, notes and reports and opens the operating-system share sheet. Import reads a file you choose in the document picker. The app does not upload it automatically to a developer server or cloud. If you share it with another app, email or cloud service, that service’s policy applies. Manage and delete exported files and operating-system backups separately."
       ],
       [
         "Optional notifications",
-        "Notifications are planned as a user choice, subject to device permission and app settings. Question text on the lock screen is intended to stay hidden unless explicitly enabled. Final device behavior is still being verified."
+        "Study notifications and question text on the lock screen are off by default. If you enable notifications, the app schedules them on the device subject to permission and settings. Question text appears only if you separately enable it. The app does not register with a remote push server or send learning data for notifications."
       ],
       [
         "Purchases and deletion",
-        "The launch store handles one-time purchases, refunds and purchase history. RushLabs does not collect card details through a payment form. Delete local data through app or device settings, or remove the app; exported backups need separate deletion."
+        "The relevant store handles app purchases, payments, refunds and purchase history. RushLabs has no form that collects card details. Clearing app data or removing the app on your device may remove local learning records; exported files and operating-system backups must be managed separately."
       ],
       [
         "This website",
@@ -341,7 +341,7 @@ export const copy={
       ],
       [
         "Support",
-        "Include only the app version, question ID and details needed for your inquiry. Do not send identity documents, customer or supplier personal records, or a complete backup file."
+        "Include only the app version, question ID and details needed for your inquiry. Do not send identity documents, customer or supplier personal records, or a complete backup file. If you email us directly, we read the sender address and message to respond. You may use the same address for correction or deletion enquiries."
       ]
     ],
     "termsIntro": "The scope of this independent study service and information website.",
